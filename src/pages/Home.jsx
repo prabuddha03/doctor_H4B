@@ -5,12 +5,10 @@ import Hero from "../components/Hero";
 import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
 import ApoinmentCard from "../components/ApoinmentCard";
-import Medicine from '../assets/medicine.png';
-import Chatbot from '../assets/chatbotsign.png';
-import Prescription from '../assets/prescriptions.png';
-import Appoinment from '../assets/appointment.png';
-
-
+import Medicine from "../assets/medicine.png";
+import Chatbot from "../assets/chatbotsign.png";
+import Prescription from "../assets/prescriptions.png";
+import Appoinment from "../assets/appointment.png";
 
 const Home = () => {
   const heroimageStyle = {
@@ -47,12 +45,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid h-auto place-items-center sm:place-items-center py-20 bg-[#00A8D0]">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
-          <ApoinmentCard />
-          <ApoinmentCard />
-          <ApoinmentCard />
-          <ApoinmentCard />
+      <div className="bg-[#00A8D0]">
+      <p className="text-6xl font-medium w-1/2 relative left-48 text-white pt-10">We Help You and Your Loved Ones Stay Healthy</p>
+        <div className="grid h-auto place-items-center sm:place-items-center py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+            <ApoinmentCard />
+            <ApoinmentCard />
+            <ApoinmentCard />
+            <ApoinmentCard />
+          </div>
         </div>
       </div>
 
