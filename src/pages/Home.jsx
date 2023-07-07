@@ -9,11 +9,16 @@ import Medicine from "../assets/medicine.png";
 import Chatbot from "../assets/chatbotsign.png";
 import Prescription from "../assets/prescriptions.png";
 import Appoinment from "../assets/appointment.png";
+import TestBg from '../assets/onlinetestbg.png';
+import HeadingText from "../components/HeadingText";
 
 const Home = () => {
   const heroimageStyle = {
     backgroundImage: `url(${heroimg})`,
   };
+  const TestBgStyle = {
+    backgroundImage: `url(${TestBg})`,
+  }
 
   return (
     <div>
@@ -45,9 +50,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-gradient-to-b from-cyan-500 to-white-200 h-auto ">
-        <p className="text-6xl font-medium w-1/2 relative left-48 text-white pt-10">
-          We Help You and Your Loved Ones Stay Healthy
-        </p>
+        <HeadingText text="We Help You And Your Loved Ones Stay Healthy"/>
         <div className="grid h-auto place-items-center sm:place-items-center py-20">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
             <ApoinmentCard
@@ -73,6 +76,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="bg-cover bg-center h-screen bg-no-repeat"
+        style={TestBgStyle}>
+
+      </div>
+
+      
 
       <Footer />
     </div>
