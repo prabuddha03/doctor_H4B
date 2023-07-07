@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="w-full p-16 px-5">
     <div className="max-w-[1640px] mx-auto grid md:grid-cols-2">
-     <div className="flex flex-col justify-center">
+     <div className="flex flex-col justify-center px-20">
        <p className="text-8xl font-bold pt-20 text-[#cccccc]">Every Day</p>
        <p className="text-8xl font-bold pt-4 text-[#a72121]">Almost 12,000</p>
        <p className="text-8xl font-bold pt-4 text-[#cccccc]">People Die</p>
