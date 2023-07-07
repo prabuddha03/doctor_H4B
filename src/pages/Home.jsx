@@ -44,7 +44,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="bg-[#00A8D0]">
+      <div className="bg-gradient-to-b from-cyan-500 to-white-200 h-auto ">
         <p className="text-6xl font-medium w-1/2 relative left-48 text-white pt-10">
           We Help You and Your Loved Ones Stay Healthy
         </p>
