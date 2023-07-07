@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import heroimg from "../assets/home.png";
 import Hero from "../components/Hero";
 import Testimonial from "../components/Testimonial";
+import Footer from "../components/Footer";
 const Home = () => {
   const heroimageStyle = {
     backgroundImage: `url(${heroimg})`,
@@ -25,6 +26,7 @@ const Home = () => {
           <Testimonial topHeading="CURRENTLY" middleText="6,573" bottomHeading="GONE THROUGH TEST" />
         </div>
       </div>
+      <Footer  />
     </div>
   );
 };
