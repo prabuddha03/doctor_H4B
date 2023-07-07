@@ -5,12 +5,10 @@ import Hero from "../components/Hero";
 import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
 import ApoinmentCard from "../components/ApoinmentCard";
-import Medicine from '../assets/medicine.png';
-import Chatbot from '../assets/chatbotsign.png';
-import Prescription from '../assets/prescriptions.png';
-import Appoinment from '../assets/appointment.png';
-
-
+import Medicine from "../assets/medicine.png";
+import Chatbot from "../assets/chatbotsign.png";
+import Prescription from "../assets/prescriptions.png";
+import Appoinment from "../assets/appointment.png";
 
 const Home = () => {
   const heroimageStyle = {
@@ -49,10 +47,10 @@ const Home = () => {
 
       <div className="grid h-auto place-items-center sm:place-items-center py-20 bg-[#00A8D0]">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
-          <ApoinmentCard  imgUrl={Chatbot} heading="Talk To Our Bot" text="Having a bad day or not feeling well? Our virtual friend is always there for you to listen and understand everything"/>
-          <ApoinmentCard imgUrl={Medicine} heading="Know Your Med" text="Know about everything before going to choose a medicine. Side effects, benefits and even timings just a click away " />
-          <ApoinmentCard imgUrl={Appoinment} heading="Book Your Visit" text="Select a date flexible to your schedule and set an appointment with your doctor." />
-          <ApoinmentCard imgUrl={Prescription} heading="Get Easy Cure" text="Get your prescription instantly without any hassle, anytime anywhere" />
+          <ApoinmentCard />
+          <ApoinmentCard />
+          <ApoinmentCard />
+          <ApoinmentCard />
         </div>
       </div>
 
