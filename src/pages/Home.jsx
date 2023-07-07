@@ -9,7 +9,7 @@ import Medicine from "../assets/medicine.png";
 import Chatbot from "../assets/chatbotsign.png";
 import Prescription from "../assets/prescriptions.png";
 import Appoinment from "../assets/appointment.png";
-import TestBg from '../assets/onlinetestbg.png';
+import TestBg from "../assets/onlinetestbg.png";
 import HeadingText from "../components/HeadingText";
 import ListText from "../components/ListText";
 
@@ -19,7 +19,7 @@ const Home = () => {
   };
   const TestBgStyle = {
     backgroundImage: `url(${TestBg})`,
-  }
+  };
 
   return (
     <div>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-gradient-to-b from-cyan-500 to-white-200 h-auto ">
-        <HeadingText text="We Help You And Your Loved Ones Stay Healthy"/>
+        <HeadingText text="We Help You And Your Loved Ones Stay Healthy" />
         <div className="grid h-auto place-items-center sm:place-items-center py-20">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
             <ApoinmentCard
@@ -78,13 +78,18 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-cover bg-center h-screen bg-no-repeat"
-        style={TestBgStyle}>
-        <HeadingText text="We Help You And Your Loved Ones Stay Healthy ?"/>
+      <div
+        className="bg-cover bg-center h-screen bg-no-repeat"
+        style={TestBgStyle}
+      >
+        <HeadingText text="We Help You And Your Loved Ones Stay Healthy ?" />
         <ListText />
+        <div className="grid place-content-center">
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-cyan-700 border-zinc-100 w-[350px]">
+            Take a Quick assesment
+          </button>
+        </div>
       </div>
-
-      
 
       <Footer />
     </div>
