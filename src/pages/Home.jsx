@@ -16,6 +16,10 @@ const Home = () => {
     <Navbar/>
     <Hero />
     </div>
+
+    <div className=''>
+
+    </div>
       
     </div>
   )
