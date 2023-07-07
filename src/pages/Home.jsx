@@ -11,6 +11,7 @@ import Prescription from "../assets/prescriptions.png";
 import Appoinment from "../assets/appointment.png";
 import TestBg from '../assets/onlinetestbg.png';
 import HeadingText from "../components/HeadingText";
+import ListText from "../components/ListText";
 
 const Home = () => {
   const heroimageStyle = {
@@ -79,7 +80,8 @@ const Home = () => {
 
       <div className="bg-cover bg-center h-screen bg-no-repeat"
         style={TestBgStyle}>
-
+        <HeadingText text="We Help You And Your Loved Ones Stay Healthy ?"/>
+        <ListText />
       </div>
 
       
