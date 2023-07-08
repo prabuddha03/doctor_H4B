@@ -12,7 +12,6 @@ import Appoinment from "../assets/appointment.png";
 import TestBg from "../assets/onlinetestbg.png";
 import HeadingText from "../components/HeadingText";
 import ListText from "../components/ListText";
-import Faqbg from "../assets/FAQbg.png";
 import Questions from "../components/Questions";
 
 const Home = () => {
@@ -21,10 +20,6 @@ const Home = () => {
   };
   const TestBgStyle = {
     backgroundImage: `url(${TestBg})`,
-  };
-
-  const FaqbgStyle = {
-    backgroundImage: `url(${Faqbg})`,
   };
 
   return (
@@ -100,8 +95,7 @@ const Home = () => {
       <div className="h-[100px]"></div>
 
       <div
-        className="bg-cover bg-center h-screen bg-no-repeat"
-        style={FaqbgStyle}
+        className=" h-screen bg-"
       >
         <HeadingText text="Frequently Asked Questions" />
         <Questions />

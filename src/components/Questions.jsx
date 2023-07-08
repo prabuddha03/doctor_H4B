@@ -6,8 +6,8 @@ const Questions = () => {
     <div className="w-full py-10 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div className="flex flex-col justify-center">
-          <ul className="text-3xl text-white font-semibold list-disc cursor-pointer">
-            <li className="py-4">What is a Payment Gateway?</li>
+          <ul className="text-3xl text-[#30CBDF] font-semibold list-disc cursor-pointer">
+            <li className="py-4 w-auto">What is a Payment Gateway?</li>
             <li className="py-4">
               Do I need to pay to Instapay even when there is no transaction
               going on in my business?
