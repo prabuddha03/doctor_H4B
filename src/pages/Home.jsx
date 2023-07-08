@@ -89,7 +89,7 @@ const Home = () => {
         style={TestBgStyle}
       >
         <HeadingText text="We Help You And Your Loved Ones Stay Healthy ?" />
-        <ListText />
+        <ListText /> 
         <div className="grid place-content-center">
           <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-cyan-700 border-zinc-100 w-[350px]">
             Take a Quick assesment
