@@ -9,7 +9,7 @@ const NavbarSec = () => {
     setnav(!nav);
   };
   return (
-    <div className="text-[#00BFD8] flex justify-between item-center h-24 max-w-auto mx-auto px-4 pt-4 bg-[#EDFFFE]">
+    <div className="text-[#00BFD8] flex justify-between item-center h-24 max-w-auto mx-auto px-4 pt-4 bg-[#dbf9f7]">
       <img src={logo} alt="logo" className="" />
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer hover:underline">Home</li>
