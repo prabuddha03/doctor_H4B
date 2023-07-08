@@ -4,6 +4,7 @@ import ProfileSidebar from "../components/ProfileSidebar";
 import MedicineDashboard from "../components/MedicineDashboard";
 import ProfileBanner from '../assets/ProfileBanner.png';
 import UserInformation from "../components/UserInformation";
+import Footer from '../components/Footer';
 
 const Profile = () => {
   return (
@@ -26,6 +27,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
