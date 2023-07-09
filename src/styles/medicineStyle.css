@@ -1,14 +1,12 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.666;
     background: #c0d2d4;
     color: #555;
   }
   
   h1 {
-    font-weight: 900;
-    font-size: 500%;
+    font-size: 300%;
     text-align: center;
     margin-top: 4rem;
     color: #fff;
@@ -17,7 +15,6 @@ body {
   
   h1 span {
     padding: 5px 15px;
-    background: #2ec2b0;
   }
   
   .dictionary {
@@ -44,13 +41,13 @@ body {
   }
   
   dt {
-    color: #2ec2b0;
+    color: #00A8D0;
     line-height: 1;
   }
   
   dt span {
     font-size: 200%;
-    font-weight: 900;
+    font-weight: 600;
   }
   
   .emoji {

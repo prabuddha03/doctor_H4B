@@ -1,12 +1,12 @@
 import React from "react";
+import Medicinebottle from '../assets/medicinebottle.png'
+
 
 function Entry(props) {
   return (
     <div className="term">
       <dt>
-        <span className="emoji" role="img" aria-label="Tense Biceps">
-          {props.emoji}
-        </span>
+      <img src={Medicinebottle} alt="medbottle" className="mx-auto" />
         <span>{props.name}</span>
       </dt>
       <dd>{props.description}</dd>

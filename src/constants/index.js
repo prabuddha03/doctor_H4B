@@ -1,26 +1,76 @@
 const emojipedia = [
-    {
-      id: 1,
-      emoji: "💪",
-      name: "Tense Biceps",
-      meaning:
-        "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
-    },
-    {
-      id: 2,
-      emoji: "🙏",
-      name: "Person With Folded Hands",
-      meaning:
-        "Two hands pressed together. Is currently very introverted, saying a prayer, or hoping for enlightenment. Is also used as a “high five” or to say thank you."
-    },
-    {
-      id: 3,
-      emoji: "🤣",
-      name: "Rolling On The Floor, Laughing",
-      meaning:
-        "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
-    }
-  ];
-  
-  export default emojipedia;
-  
+  {
+    id: 1,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 2,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 3,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 4,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 5,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 6,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 7,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 8,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 9,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 10,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 11,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+  {
+    id: 12,
+    name: "Azithromycin",
+    meaning:
+      "Azithromycin is an antibiotic used to treat bacterial infections like respiratory tract infections, skin infections, and sexually transmitted infections. It works by stopping the growth of bacteria. Common side effects include gastrointestinal symptoms, and it may interact with other medications. ",
+  },
+];
+
+export default emojipedia;
