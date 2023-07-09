@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Navbar from "../components/Navbar";
 import heroimg from "../assets/home.png";
 import Hero from "../components/Hero";
@@ -60,16 +62,22 @@ const Home = () => {
               heading="Talk To Our Bot"
               text="Having a bad day or not feeling well? Our virtual friend is always there for you to listen and understand everything"
             />
-            <ApoinmentCard
-              imgUrl={Medicine}
-              heading="Know Your Med"
-              text="Know about everything before going to choose a medicine. Side effects, benefits and even timings just a click away "
-            />
-            <ApoinmentCard
-              imgUrl={Appoinment}
-              heading="Book Your Visit"
-              text="Select a date flexible to your schedule and set an appointment with your doctor."
-            />
+            <Link to="/knowmedicine">
+              <ApoinmentCard
+                imgUrl={Medicine}
+                heading="Know Your Med"
+                text="Know about everything before going to choose a medicine. Side effects, benefits and even timings just a click away "
+              />
+            </Link>
+
+            <Link to="/AppoinmentBooking">
+              <ApoinmentCard
+                imgUrl={Appoinment}
+                heading="Book Your Visit"
+                text="Select a date flexible to your schedule and set an appointment with your doctor."
+              />
+            </Link>
+
             <ApoinmentCard
               imgUrl={Prescription}
               heading="Get Easy Cure"
@@ -84,7 +92,7 @@ const Home = () => {
         style={TestBgStyle}
       >
         <HeadingText text="We Help You And Your Loved Ones Stay Healthy ?" />
-        <ListText /> 
+        <ListText />
         <div className="grid place-content-center">
           <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-cyan-700 border-zinc-100 w-[350px]">
             Take a Quick assesment
@@ -94,9 +102,7 @@ const Home = () => {
 
       <div className="h-[100px]"></div>
 
-      <div
-        className=" h-screen bg-"
-      >
+      <div className=" h-screen bg-">
         <HeadingText text="Frequently Asked Questions" />
         <Questions />
       </div>

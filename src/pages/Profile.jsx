@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NavbarSec from "../components/NavbarSec";
 import ProfileSidebar from "../components/ProfileSidebar";
 import MedicineDashboard from "../components/MedicineDashboard";
@@ -14,7 +15,7 @@ const Profile = () => {
         <div className="flex md:flex sm:flex-col">
           <div className="h-auto">
             <div className="absolute top-32 left-1/3">
-            <button className="btn btn-info w-[200px] absolute right-[2%] top-[15%] cursor-pointer">Book an appoinment</button>
+            
             <div className="flex gap-4 absolute py-5" ><p className="text-2xl font-medium">Welcome,</p><p className="text-3xl font-semibold text-cyan-600">Mark Zuck</p></div>
             <img src={ProfileBanner} alt="banner" className="py-5" />
             <div className="flex gap-5">
@@ -24,6 +25,7 @@ const Profile = () => {
             </div>
             <ProfileSidebar />
             <button className="btn btn-info w-[200px] absolute top-[90%] right-[54%]">Take the test</button>
+            <Link to="/AppoinmentBooking"><button className="btn btn-info bg-cyan-500 w-[200px] cursor-pointer">Book an appoinment</button></Link>
           </div>
         </div>
       </div>

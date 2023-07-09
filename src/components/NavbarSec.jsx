@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/LOGO.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -12,10 +13,10 @@ const NavbarSec = () => {
     <div className="text-[#00BFD8] flex justify-between item-center h-24 max-w-auto mx-auto px-4 pt-4 bg-[#dbf9f7]">
       <img src={logo} alt="logo" className="" />
       <ul className="hidden md:flex">
-        <li className="p-4 cursor-pointer hover:underline">Home</li>
+        <Link to="/"><li className="p-4 cursor-pointer hover:underline">Home</li></Link>
         <li className="p-4 cursor-pointer hover:underline ">Become a Donor</li>
         <li className="p-4 cursor-pointer  hover:underline">Contact Us</li>
-        <li className="p-4 cursor-pointer hover:underline">About Us</li>
+        <Link to="/about"><li className="p-4 cursor-pointer hover:underline">About Us</li></Link>
         <li className="p-4 cursor-pointer hover:underline">User</li>
       </ul>
       <div onClick={handlenav} className="block md:hidden">
@@ -30,18 +31,18 @@ const NavbarSec = () => {
       >
         <img src={logo} alt="logo" className="m-4" />
         <ul className="p-4">
-          <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
+          <Link to="/"><li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Home
-          </li>
+          </li></Link>
           <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Become a Donor
           </li>
           <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Contact Us
           </li>
-          <li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
+          <Link to="/about"><li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
             About Us
-          </li>
+          </li></Link>
           <li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
             User
           </li>

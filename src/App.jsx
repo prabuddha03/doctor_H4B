@@ -5,16 +5,19 @@ import AppoinmentBooking from "./pages/AppoinmentBooking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import KnowMedicine from "./pages/KnowMedicine";
 import DoctorsDashboard from "./pages/DoctorsDashboard";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from './'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="profile" element={<Profile />} />
-        <Route path="AppoinmentBooking" element={<AppoinmentBooking />} />
-        <Route path="knowmedicine" element={<KnowMedicine />} />
-        <Route path="docdashboard" element={<DoctorsDashboard />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/AppoinmentBooking" element={<AppoinmentBooking />} />
+        <Route path="/knowmedicine" element={<KnowMedicine />} />
+        <Route path="/docdashboard" element={<DoctorsDashboard />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   );

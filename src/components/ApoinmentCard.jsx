@@ -1,13 +1,12 @@
 import React from 'react';
-import Appoinment from '../assets/appointment.png';
 
 const ApoinmentCard = ({ imgUrl, heading, text }) => {
   return (
-    <div className='h-[331px] w-[331px] bg-white rounded-xl shadow-xl'>
+    <button type='button' className='h-[331px] w-[331px] bg-white rounded-xl shadow-xl cursor-pointer hover:bg-cyan-100'>
       <img src={imgUrl} alt="logo" className='mx-auto pt-12' />
-       <p className='text-2xl text-[#5B084B] relative top-7 px-20'>{heading}</p>
-       <p className='py-11 text-center'>{text}</p>
-    </div>
+       <p className='text-2xl text-[#5B084B] flex justify-center pt-8'>{heading}</p>
+       <p className='pt-8 text-center flex justify-center'>{text}</p>
+    </button>
   )
 }
 
