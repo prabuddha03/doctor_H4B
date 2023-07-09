@@ -4,6 +4,7 @@ import Profile from "./pages/Profile";
 import AppoinmentBooking from "./pages/AppoinmentBooking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import KnowMedicine from "./pages/KnowMedicine";
+import DoctorsDashboard from "./pages/DoctorsDashboard";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="profile" element={<Profile />} />
         <Route path="AppoinmentBooking" element={<AppoinmentBooking />} />
         <Route path="knowmedicine" element={<KnowMedicine />} />
+        <Route path="docdashboard" element={<DoctorsDashboard />} />
       </Routes>
     </BrowserRouter>
   );
