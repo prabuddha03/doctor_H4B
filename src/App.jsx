@@ -7,6 +7,7 @@ import KnowMedicine from "./pages/KnowMedicine";
 import DoctorsDashboard from "./pages/DoctorsDashboard";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from './pages/ContactUs';
+import Chatbot from "./pages/Chatbot";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/docdashboard" element={<DoctorsDashboard />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs /> } />
+        <Route path="/chat" element={<Chatbot />} />
 
       </Routes>
     </BrowserRouter>
