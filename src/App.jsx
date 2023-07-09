@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import AppoinmentBooking from "./pages/AppoinmentBooking";
@@ -10,8 +10,15 @@ import ContactUs from './pages/ContactUs';
 import Chatbot from "./pages/Chatbot";
 import BloodDonation from "./pages/BloodDonation";
 import Register from "./pages/Register";
+import Login from './components/login/Login';
+import useToken from "./components/useToken";
 
 const App = () => {
+  const { token, setToken } = useToken();
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
+
   return (
     <BrowserRouter>
       <Routes>
