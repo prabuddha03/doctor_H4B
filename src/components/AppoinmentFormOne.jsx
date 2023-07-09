@@ -12,6 +12,7 @@ const AppoinmentFormOne = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log({inputs});
     alert(inputs);
   };
   return (

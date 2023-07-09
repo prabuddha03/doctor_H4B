@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import Navbar from "../components/Navbar";
 import heroimg from "../assets/home.png";
 import Hero from "../components/Hero";
