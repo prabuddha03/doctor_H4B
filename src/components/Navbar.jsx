@@ -14,10 +14,16 @@ const Navbar = () => {
     <div className="text-white flex justify-between item-center h-24 max-w-[1240px] mx-auto px-4 pt-4">
       <img src={logo} alt="logo" className="" />
       <ul className="hidden md:flex">
-         <Link to="/"><li className="p-4 cursor-pointer hover:underline">Home</li></Link>
+        <Link to="/">
+          <li className="p-4 cursor-pointer hover:underline">Home</li>
+        </Link>
         <li className="p-4 cursor-pointer hover:underline ">Become a Donor</li>
-        <li className="p-4 cursor-pointer  hover:underline">Contact Us</li>
-        <Link to="/about"><li className="p-4 cursor-pointer hover:underline">About Us</li></Link>
+        <Link to="/contact">
+          <li className="p-4 cursor-pointer  hover:underline">Contact Us</li>
+        </Link>
+        <Link to="/about">
+          <li className="p-4 cursor-pointer hover:underline">About Us</li>
+        </Link>
         <li className="p-4 cursor-pointer hover:underline">Login</li>
       </ul>
       <div onClick={handlenav} className="block md:hidden">
@@ -32,18 +38,24 @@ const Navbar = () => {
       >
         <img src={logo} alt="logo" className="m-4" />
         <ul className="p-4">
-          <Link to="/"><li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
-            Home
-          </li></Link>
+          <Link to="/">
+            <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
+              Home
+            </li>
+          </Link>
           <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Become a Donor
           </li>
-          <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
-            Contact Us
-          </li>
-          <Link to="/about"><li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
-            About Us
-          </li></Link>
+          <Link to="/contact">
+            <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
+              Contact Us
+            </li>
+          </Link>
+          <Link to="/about">
+            <li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
+              About Us
+            </li>
+          </Link>
           <li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
             Login
           </li>

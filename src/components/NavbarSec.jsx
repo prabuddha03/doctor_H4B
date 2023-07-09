@@ -15,7 +15,7 @@ const NavbarSec = () => {
       <ul className="hidden md:flex">
         <Link to="/"><li className="p-4 cursor-pointer hover:underline">Home</li></Link>
         <li className="p-4 cursor-pointer hover:underline ">Become a Donor</li>
-        <li className="p-4 cursor-pointer  hover:underline">Contact Us</li>
+        <Link to="/contact"><li className="p-4 cursor-pointer  hover:underline">Contact Us</li></Link>
         <Link to="/about"><li className="p-4 cursor-pointer hover:underline">About Us</li></Link>
         <li className="p-4 cursor-pointer hover:underline">User</li>
       </ul>
@@ -37,9 +37,9 @@ const NavbarSec = () => {
           <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Become a Donor
           </li>
-          <li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
+          <Link to="/contact"><li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Contact Us
-          </li>
+          </li></Link>
           <Link to="/about"><li className="p-4 border-b border-gray-600  text-black cursor-pointer hover:underline">
             About Us
           </li></Link>

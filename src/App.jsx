@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import KnowMedicine from "./pages/KnowMedicine";
 import DoctorsDashboard from "./pages/DoctorsDashboard";
 import AboutUs from "./pages/AboutUs";
-import ContactUs from './'
+import ContactUs from './pages/ContactUs';
 
 const App = () => {
   return (
@@ -18,6 +18,8 @@ const App = () => {
         <Route path="/knowmedicine" element={<KnowMedicine />} />
         <Route path="/docdashboard" element={<DoctorsDashboard />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs /> } />
+
       </Routes>
     </BrowserRouter>
   );
