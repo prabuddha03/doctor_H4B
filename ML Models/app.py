@@ -12,7 +12,7 @@ model = pickle.load(open('logistic_regression_model', 'rb'))
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index_ml.html')
 
 @app.route('/predict',methods=['POST'])
 def predict():
