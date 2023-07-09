@@ -1,5 +1,0 @@
-tourSchema => doctorSchema
-lead-guide => doctor
-tour => doctor
-Tour => Doctor
-price => money
