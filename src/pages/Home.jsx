@@ -56,11 +56,13 @@ const Home = () => {
         <HeadingText text="We Help You And Your Loved Ones Stay Healthy" />
         <div className="grid h-auto place-items-center sm:place-items-center py-20">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+            <Link to="/chat">
             <ApoinmentCard
               imgUrl={Chatbot}
               heading="Talk To Our Bot"
               text="Having a bad day or not feeling well? Our virtual friend is always there for you to listen and understand everything"
             />
+            </Link>
             <Link to="/knowmedicine">
               <ApoinmentCard
                 imgUrl={Medicine}
