@@ -6,6 +6,10 @@ import Blood from "../assets/blood.png";
 import Logout from "../assets/logout.png";
 
 const ProfileSidebar = () => {
+
+  function refreshPage(){
+    window.location.reload();
+} 
   return (
     <div>
       <div className="drawer lg:drawer-open">
@@ -47,7 +51,7 @@ const ProfileSidebar = () => {
                 Blood Mate
               </a>
             </li>
-            <li className="bg-[#3fb8d3] rounded-xl p-3 text-2xl text-[#2C444A] font-bold hover:bg-[#2B9DC1]  my-7">
+            <li className="bg-[#3fb8d3] rounded-xl p-3 text-2xl text-[#2C444A] font-bold hover:bg-[#2B9DC1]  my-7" onClick={refreshPage}>
               <a>
                 <img src={Logout} alt="icon" className="mr-2" />
                 Log Out

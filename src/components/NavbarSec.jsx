@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/LOGO.png";
+import logo from "../assets/LOGOsec.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const NavbarSec = () => {
@@ -11,7 +11,7 @@ const NavbarSec = () => {
   };
   return (
     <div className="text-[#00BFD8] flex justify-between item-center h-24 max-w-auto mx-auto px-4 pt-4 bg-[#dbf9f7]">
-      <img src={logo} alt="logo" className="" />
+      <img src={logo} alt="logo" className="w-30 h-30" />
       <ul className="hidden md:flex">
         <Link to="/"><li className="p-4 cursor-pointer hover:underline">Home</li></Link>
         <li className="p-4 cursor-pointer hover:underline ">Become a Donor</li>
@@ -29,7 +29,7 @@ const NavbarSec = () => {
             : "fixed left-[-100%] "
         }
       >
-        <img src={logo} alt="logo" className="m-4" />
+        <img src={logo} alt="logo" className="m-4 w-30 h-30" />
         <ul className="p-4">
           <Link to="/"><li className="p-4 border-b border-gray-600 text-black cursor-pointer hover:underline">
             Home

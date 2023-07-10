@@ -11,10 +11,10 @@ import Chatbot from "./pages/Chatbot";
 import BloodDonation from "./pages/BloodDonation";
 import Register from "./pages/Register";
 import Login from './components/login/Login';
-import useToken from "./components/useToken";
+
 
 const App = () => {
-  const { token, setToken } = useToken();
+  const [token, setToken] = useState();
   if(!token) {
     return <Login setToken={setToken} />
   }
