@@ -13,6 +13,7 @@ const BloodDonation = () => {
         address={donorlist.address}
         bloodgroup={donorlist.bloodgroup}
         contact={donorlist.contact}
+        age={donorlist.age}
       />
     );
   }
@@ -48,7 +49,7 @@ const BloodDonation = () => {
         List Of Blood Donors
       </p>
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 gap-6 w-[50%]">{donorlist.map(createEntry)}</div>
+        <div className="grid grid-cols-1 gap-6 w-[50%] pt-10 pb-10">{donorlist.map(createEntry)}</div>
       </div>
       <Footer />
     </div>
