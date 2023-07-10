@@ -16,6 +16,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const app = express();
 app.use(cors());
 
+app.use(cors());
 //for security in http header
 app.use(helmet());
 
