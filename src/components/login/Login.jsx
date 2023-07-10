@@ -24,6 +24,7 @@ export default function Login({ setToken }) {
       email: username,
       password
     });
+    console.log(token);
     setToken(token);
   }
 
